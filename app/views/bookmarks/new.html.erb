@@ -1,5 +1,5 @@
 <%= simple_form_for [@list, @bookmark] do |f| %>
 <%=f.input :comment  %>
-<%= f.association :list %>
-<%=link_to "Create bookmark", #lists_path %>
+<%= f.association :movie %>
+<%=f.submit%>
 <% end %>
